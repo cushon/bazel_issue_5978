@@ -1,0 +1,8 @@
+android_binary(
+    name = "sample",
+    custom_package = "NONAME",
+    manifest = "AndroidManifest.xml",
+    deps = [
+        "@com_google_protobuf_javalite//:protobuf_java_lite",
+    ]
+)

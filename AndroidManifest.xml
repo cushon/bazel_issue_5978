@@ -1,0 +1,3 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="NONAME">
+    <uses-sdk android:minSdkVersion="999"/>
+</manifest>

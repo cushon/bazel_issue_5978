@@ -1,0 +1,5 @@
+build:jdk8      --javabase=@local_jdk//:jdk
+build:jdk8      --host_javabase=@local_jdk//:jdk
+build:jdk8      --java_toolchain=@bazel_tools//tools/jdk:toolchain_hostjdk8
+build:jdk8      --host_java_toolchain=@bazel_tools//tools/jdk:toolchain_hostjdk8
+
